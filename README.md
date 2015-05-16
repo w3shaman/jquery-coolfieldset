@@ -2,7 +2,7 @@
 JQuery Plugin for creating a cool collapsible fieldset.
 
 Further information can be read from here:
-https://github.com/w3shaman/jquery-coolfieldset
+http://w3shaman.com/article/jquery-plugin-collapsible-fieldset
 
 # Demo
 The live example can be tried from here:
