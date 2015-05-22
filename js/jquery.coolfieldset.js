@@ -19,6 +19,7 @@
  * - Added an "update" event triggered on element after the operation finishes
  * - Works under IE8+, Chrome 32+, Firefox 26+, Opera 18+, Safari 5+
  */
+
 ;(function ($, window, undefined) {
   function hideFieldsetContent(obj, options) {
     if (options.animation) {
