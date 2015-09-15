@@ -23,12 +23,12 @@
 ;(function ($, window, undefined) {
   function hideFieldsetContent(obj, options) {
     if (options.animation) {
-      obj.find('div').slideUp(options.speed, function() {
+      obj.children("*:not('legend')").slideUp(options.speed, function() {
         obj.trigger("update");
       });
     }
     else {
-      obj.find('div').hide();
+      obj.children("*:not('legend')").hide();
     }
     obj.removeClass("expanded").addClass("collapsed");
 
@@ -39,12 +39,12 @@
 
   function showFieldsetContent(obj, options) {
     if (options.animation) {
-      obj.find('div').slideDown(options.speed, function() {
+      obj.children("*:not('legend')").slideDown(options.speed, function() {
         obj.trigger("update");
       });
     }
     else {
-      obj.find('div').show();
+      obj.children("*:not('legend')").show();
     }
 
     obj.removeClass("collapsed").addClass("expanded");
