@@ -31,6 +31,7 @@
       obj.children("*:not('legend')").hide();
     }
     obj.removeClass("expanded").addClass("collapsed");
+    obj.children("*:not('legend')").attr("aria-expanded","false");
 
     if (!options.animation) {
       obj.trigger("update");
@@ -48,6 +49,7 @@
     }
 
     obj.removeClass("collapsed").addClass("expanded");
+    obj.children("*:not('legend')").attr("aria-expanded","true");
     if (!options.animation) {
       obj.trigger("update");
     }

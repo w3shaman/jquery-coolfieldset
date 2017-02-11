@@ -1,0 +1,19 @@
+{
+  "name": "jquery-coolfieldset",
+  "version": "1.0.0",
+  "description": "JQuery Plugin for creating a cool collapsible fieldset.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3shaman/jquery-coolfieldset.git"
+  },
+  "author": "w3shaman",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/w3shaman/jquery-coolfieldset/issues"
+  },
+  "homepage": "http://w3shaman.com/article/jquery-plugin-collapsible-fieldset"
+}
