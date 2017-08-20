@@ -1,0 +1,18 @@
+body {
+  font-family: arial;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, p.description {
+  margin: 0 3px 25px 3px;
+}
+
+pre {
+  max-width: 98%;
+  margin: auto;
+  overflow: auto;
+  background-color: #000;
+  color: #8DF159;
+  padding: 7px;
+}
