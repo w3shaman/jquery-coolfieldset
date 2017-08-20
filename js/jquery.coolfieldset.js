@@ -72,6 +72,9 @@
       var fieldset = $(this);
       var legend = fieldset.children('legend');
 
+      var content = fieldset.children("*:not('legend')")
+      content.wrapAll('<div class="wrapper"></div>');
+
       if (setting.collapsed) {
         hideFieldsetContent(fieldset, { animation: false });
       }

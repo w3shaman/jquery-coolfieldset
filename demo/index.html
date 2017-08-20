@@ -11,48 +11,35 @@
 	<br/>
 	<fieldset id="fieldset1" class="coolfieldset">
 		<legend>Default</legend>
-		<div>
-			<p>By default the <b>fieldset</b> is opened or expanded at start. Click on its <b>legend</b> to close or collapse it.</p>
-
-			<p>The code is simply like below</p>
+		<p>By default the <b>fieldset</b> is opened or expanded at start. Click on its <b>legend</b> to close or collapse it.</p>
+		<p>The code is simply like below</p>
 <pre>
 $('#fieldset1').coolfieldset();
 </pre>
-		</div>
 	</fieldset>
 	<br/>
 	<fieldset id="fieldset2" class="coolfieldset">
 		<legend>Closed at start</legend>
-
-		<div>
-			<p>If we want the fieldset to be closed or collapsed at start, just add <b>{collapsed:true}</b> as the argument.</p>
+		<p>If we want the fieldset to be closed or collapsed at start, just add <b>{collapsed:true}</b> as the argument.</p>
 <pre>
 $('#fieldset2').coolfieldset({collapsed:true});
 </pre>
-		</div>
 	</fieldset>
 	<br/>
-
 	<fieldset id="fieldset3" class="coolfieldset">
 		<legend>Animation Speed</legend>
-		<div>
-			<p>You can also define the animation speed for the fieldset while collapsing or expanding by using <b>speed</b> option. Acceptable values are "<b>fast</b>", "<b>medium</b>", "<b>slow</b>", or a number in millisecond.</p>
-
+		<p>You can also define the animation speed for the fieldset while collapsing or expanding by using <b>speed</b> option. Acceptable values are "<b>fast</b>", "<b>medium</b>", "<b>slow</b>", or a number in millisecond.</p>
 <pre>
 $('#fieldset3').coolfieldset({speed:"fast"});
 </pre>
-		</div>
 	</fieldset>
 	<br/>
 	<fieldset id="fieldset4" class="coolfieldset">
 		<legend>No Animation</legend>
-		<div>
-			<p>If you don't want to use animation effect, please use <b>animation</b> option and fill its value with <b>false</b>.</p>
-
+		<p>If you don't want to use animation effect, please use <b>animation</b> option and fill its value with <b>false</b>.</p>
 <pre>
 $('#fieldset4').coolfieldset({animation:false});
 </pre>
-		</div>
 	</fieldset>
 	<script>
 		$('#fieldset1').coolfieldset();
