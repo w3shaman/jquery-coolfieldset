@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>jQuery Collapsible Fieldset</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script language="javascript" type="text/javascript" src="../js/jquery.coolfieldset.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/jquery.coolfieldset.css" />
+  <title>jQuery Collapsible Fieldset</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="../js/jquery.coolfieldset.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/jquery.coolfieldset.css" />
 </head>
 <body>
 <h1>jQuery Collapsible Fieldset</h1>
-	<br/>
-	<fieldset id="fieldset1" class="coolfieldset">
-		<legend>Default</legend>
-		<p>By default the <b>fieldset</b> is opened or expanded at start. Click on its <b>legend</b> to close or collapse it.</p>
-		<p>The code is simply like below</p>
+  <br/>
+  <fieldset id="fieldset1" class="coolfieldset">
+    <legend>Default</legend>
+    <p>By default the <b>fieldset</b> is opened or expanded at start. Click on its <b>legend</b> to close or collapse it.</p>
+    <p>The code is simply like below</p>
 <pre>
 $('#fieldset1').coolfieldset();
 </pre>
-	</fieldset>
-	<br/>
-	<fieldset id="fieldset2" class="coolfieldset">
-		<legend>Closed at start</legend>
-		<p>If we want the fieldset to be closed or collapsed at start, just add <b>{collapsed:true}</b> as the argument.</p>
+  </fieldset>
+  <br/>
+  <fieldset id="fieldset2" class="coolfieldset">
+    <legend>Closed at start</legend>
+    <p>If we want the fieldset to be closed or collapsed at start, just add <b>{collapsed:true}</b> as the argument.</p>
 <pre>
 $('#fieldset2').coolfieldset({collapsed:true});
 </pre>
-	</fieldset>
-	<br/>
-	<fieldset id="fieldset3" class="coolfieldset">
-		<legend>Animation Speed</legend>
-		<p>You can also define the animation speed for the fieldset while collapsing or expanding by using <b>speed</b> option. Acceptable values are "<b>fast</b>", "<b>medium</b>", "<b>slow</b>", or a number in millisecond.</p>
+  </fieldset>
+  <br/>
+  <fieldset id="fieldset3" class="coolfieldset">
+    <legend>Animation Speed</legend>
+    <p>You can also define the animation speed for the fieldset while collapsing or expanding by using <b>speed</b> option. Acceptable values are "<b>fast</b>", "<b>medium</b>", "<b>slow</b>", or a number in millisecond.</p>
 <pre>
 $('#fieldset3').coolfieldset({speed:"fast"});
 </pre>
-	</fieldset>
-	<br/>
-	<fieldset id="fieldset4" class="coolfieldset">
-		<legend>No Animation</legend>
-		<p>If you don't want to use animation effect, please use <b>animation</b> option and fill its value with <b>false</b>.</p>
+  </fieldset>
+  <br/>
+  <fieldset id="fieldset4" class="coolfieldset">
+    <legend>No Animation</legend>
+    <p>If you don't want to use animation effect, please use <b>animation</b> option and fill its value with <b>false</b>.</p>
 <pre>
 $('#fieldset4').coolfieldset({animation:false});
 </pre>
-	</fieldset>
-	<script>
-		$('#fieldset1').coolfieldset();
-		$('#fieldset2').coolfieldset({collapsed:true});
-		$('#fieldset3').coolfieldset({speed:"fast"});
-		$('#fieldset4').coolfieldset({animation:false});
-	</script>
+  </fieldset>
+  <script>
+    $('#fieldset1').coolfieldset();
+    $('#fieldset2').coolfieldset({collapsed:true});
+    $('#fieldset3').coolfieldset({speed:"fast"});
+    $('#fieldset4').coolfieldset({animation:false});
+  </script>
 </body>
 </html>
