@@ -9,4 +9,4 @@ The live example can be tried from here:
 http://stuff.w3shaman.com/jquery-plugins/coolfieldset/
 
 # Credits
-Thanks to Mitch Kuppinger, Jason, and SiZiOUS who made the improvement for this plugin.
+Thanks to Mitch Kuppinger, Jason, and SiZiOUS who made the improvement for this plugin far before this plugin is published to GitHub.
