@@ -1,5 +1,6 @@
 /**
  * jQuery Plugin for creating collapsible fieldset
+ * @version 1.1.0
  * @requires jQuery 1.4 or later
  *
  * Copyright (c) 2010 Lucky <bogeyman2007@gmail.com>
